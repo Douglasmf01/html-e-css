@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em html5</title>
+</head>
+<body>
+    <h1>imagens dinâmicas</h1>
+    <p>pessoas acessam o site de vários dispositivos então é necessario ter uma mesma imagem de varios tamanhos para se adaptar a cada dispositivo</p>
+    <p>essa é uma imagem que se adequa ao tamanho da tela</p>
+    <picture>
+    
+        <source media="(min-width: 1030px)" srcset="imagens/1000.png" type="image/png">
+        <source media="(min-width: 730px )" srcset="imagens/700.png" type="image/png">
+        <img src="imagens/300.png" alt="flexivel">
+        
+        
+        
+        
+    </picture>
+  
+    <h1>audios no seu site</h1>
+    <p>é possivel colocar um áudio usando a tag audio. colocamos um audio da mesma maneira que adicionamos uma foto. usamos também controls para que uma barra de controle possa aparecer no site</p>
+   <pre><p>           dust in the wind
+     <audio src="midia/04 Kansas - Dust in the Wind.mp3" controls preload="metadata" ></audio></p></pre>
+     <pre><p>           lookin out my back door
+     <audio src="midia/10 Creedence Clearwater Revival - Lookin  Out My Back Door.mp3" controls preload="metadata" loop></audio>
+     </p></pre>
+    <p>Existe tembém um aoutra maneira de colocar audios no site</p>
+    <audio controls preload="metadata" loop>
+         <source src="midia/04 Kansas - Dust in the Wind.mp3"type="audio/mpeg">
+         <source src="arquivo ogg" type="audio/ogg">
+          <source src="arquivo wav" type="audio/wav">
+          <p>não foi possivel reproduzir o audio</p>
+          <!--sera feito como feito nas imagens acima, o navegador tentara tocar o mp3 e se não conseguir tentarar tocar o ogg, não conseguindo ele tentara o wav e não conseguindo ele exibira a mensagem"não foi possível reproduzir o audio-->
+
+
+</body>
+</html>

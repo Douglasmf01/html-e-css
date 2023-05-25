@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>citações e códigos</title>
+    <style>body { background-color: rgb(142, 142, 170);
+     }</style>
+     <style>p {font-size: large;}</style>
+</head>
+
+<body>
+    <h1 style="color:rgb(37, 37, 67) ; font-size: 1cm;">Citaçoes</h1>
+    <p>Como diria o pai de um amigo : "o computador é um burro muito rápido"</p>
+    <p>para colocar como citação usamos a tag <mark>q</mark>. no fim vai ficar desse jeito: <q>O computador é um burro muito rápido</q> no primeiro paragrafo usei aspas manuais enquanto no segundo usei a tag q. Embora visualmente nçao há diferenças, usar a tag q é semântico enquanto aspas manuau não</p>
+    <p>usando a tag <mark>blockquote</mark>, consigo separar a citação em um bloco: <blockquote><q>o computador é um burro muito rápido. independente do tamanho, a citação será mantida como um bloco inteiro</blockquote></q></p>
+    <h1 style="font-size: 1cm; color: white">código fonte</h1>
+    <p>O comando document.getElementByid é escrito em linguagem javaScript. Pórem para deixalo com mais cara de codigo e com palavras monoespaçadas eu posso usar a tag <code>code</code>. dessa maneira o comando fica desse jeito: <code>document.getElementByid</code> </p>
+    <p><big><strong>vamos escrever agora um código phyton</strong></big></p>
+   
+    <p> <code>
+        num = int(input("digite um número"))
+            if num % 2 == 0:
+                print("O número {num} é par")
+            else:
+                print("o número {num} é impar")
+            print("fim do programa")
+    </code>
+    <br><br>
+    <p>Embora a fonte esteja com um formato apropiado, toda a erscrita não foi espaçada no site como foi no código. par aisso temos a tag <mark>pre</mark>. usando a tag code e a tag pre temos um codigo assim:</p><br>
+    <p><pre>
+        <code>
+num = int(input("digite um número"))
+    if num % 2 == 0:
+        print("O número {num} é par")
+    else:
+        print("o número {num} é impar")
+    print("fim do programa")
+        </code>
+    </pre></p>
+
+   <h1 style="color:red; font-size: 1cm">Abreviações</h1>
+    <p>usando a tag <mark>abbr</mark>, consigo fazer abreviações. Colocamos o significado em "title" e a abreviação entre os dois abbr</p>
+    <p>Estou estudando<abbr title="hiper text markup language">HTML</abbr> e <abbr title="cascadind style sheets">CSS</abbr>!</p> <br><br><br>
+    <P><bdo dir="rtl"> POR AGORA É SÓ!!!</bdo></P>
+</body>
+</html>

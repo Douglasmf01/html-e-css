@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Semi+Condensed&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Instrument+Serif&family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Monoton&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Sacramento&family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Major+Mono+Display&family=Syne+Mono&display=swap');
+*{
+font-size: 1.04em;
+
+}
+main {
+    background-color: rgba(245, 255, 245, 0.429);
+    margin: auto;
+    border-radius: 20px;
+    width: 1100px;
+    height: 950px;
+    
+}
+body {
+     background-image: linear-gradient(to left, #ff5833c3, #b5cf66c5);
+     width: 1000px;
+     height:1200px;
+     margin: auto;
+    
+
+}
+
+h1{
+    font-size:3em;
+    color: black;
+    text-align: center;
+    background-color: rgba(245, 255, 245, 0.429);
+    border-radius: 20px;
+}
+h2{
+    font-size:2em;
+   color: #146152;
+
+}
+p {
+
+
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudoclasses</title>
+    <style>
+        div {
+            display: inline-block;
+            text-align: center;
+            background-color: aquamarine;
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            border-radius: 20px;
+
+
+        
+        
+        }
+        
+       
+        div#d1:hover {
+           background-color: green;
+        }
+        div#d2:hover {
+            background-color: yellow;
+        }
+        div#d3:hover{
+            background-color: red;
+        }
+        p{
+            color: aquamarine;
+            font-size: 70px;
+
+        }
+        div:hover >p{
+            color: white;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>passe o mouse sobre esses quadrados</h1>
+    <div id="d1">1 <p>você</p></div>
+    <div id="d2">2 <p>é</p></div>
+    <div id="d3">3 <p>foda</p></div>
+</body>
+</html>

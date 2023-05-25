@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            background-color: #D6D58E;
+            font-family: sans-serif;
+            margin: 0px;
+        }
+        header {
+            
+           
+            
+            border-radius:  10px;
+        }
+         h1 {
+            text-align: center;
+            font-size: 50px;
+            background-color: #005C53;
+            color: white;
+            margin: auto;
+            margin-bottom: 10px;
+            
+        }
+        nav{
+            text-align: center;
+            
+            background-color: #005C53;
+            width: 400px;
+            margin: auto;
+            border-radius: 10px;
+            padding: 5px;
+            box-shadow: 3px 3px 4px #5C5254;
+            margin-bottom: 20px;
+            
+            
+            
+        }
+        nav > a{
+             color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 40px;
+            box-shadow: 2px 2px 2px black;
+            background-color: #005C53;
+        }
+        nav > a:hover {
+            color: black;
+            font-size: large;
+            border-width: 0px;
+
+        }
+        
+       
+        main{
+            background-color: rgba(255, 255, 255, 0.508);
+            margin: 20px 140px;
+            padding: 10px;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.566);
+            border-radius:  10px;
+            
+            
+        }
+        #semmargem{
+            padding-top: 0px;
+        }
+        article{
+           padding-top: 50px;
+        }
+        
+        article> h2{
+            margin-left: 15px;
+            color:#005C53;
+            
+            
+        }
+        #id {
+            font-size: smaller;
+            margin-left: 40px;
+            
+        }
+
+        footer{
+            background-color: #005C53;
+            margin: 10px 30px;
+            padding: 10px;
+            margin: 0px;
+        }
+      
+       
+        #bola{
+            
+            background-color: white;
+            height: 120px;
+            width: 120px;
+            border-radius: 60px;
+            margin: auto;
+            
+
+        }
+        div#bola > p {
+            text-align: center;
+            padding-top: 40px;
+            
+        }
+        div#bola >p> a{
+            text-decoration: none;
+            color: black
+        }
+        div#bola:hover {
+            background-color: rgb(214, 213, 142);
+
+        }
+        div#bola:hover >p >a{
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        div#bola > p > a:active{
+            color: rgb(0, 92, 83);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <article id="semmargem">
+                <h2>Noticias do mundo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam obcaecati officiis iste neque quod? Nostrum corrupti illo praesentium neque earum accusantium? Excepturi ipsa amet est perspiciatis! Et quia nam officia.</p>
+
+            </article>
+            <article >
+                <h2>Noticias do brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, asperiores. Unde iure libero, suscipit dolore dolorum totam sequi autem magnam magni fugiat perferendis excepturi corporis! Fuga harum nobis dolorum eos?</p>
+                <aside> 
+                    <p id="id"><em> artigo escito por lorem ipsum</em></p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        
+        <div id="bola">
+            <p><a href="#"> Desenvolvido por Douglas</a></p>
+
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formatações de texto</title>
+    <style>mark {background-color: rgb(180, 79, 79)};</style>
+    <style>h1 {color:brown;font-size:  1.5cm};</style>
+    <style> h2 {font-size: 5ch};</style>
+
+    </head>
+    <body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito/ Destaque</h2>
+    <p>Nessa frase temos um <b>termo</b> em negrito usando a tag <mark>b</mark> (não semantica)</b></p>
+    <p>Nesta frase, tenho um <strong>termo</strong> em destaque usando a tag <mark>strong</mark>
+        (semantica)</p>
+    <h2>Itálico ou ênfase</h2>
+    <p>Nesta frase temos um termo <i>termo em italico</i> usando a tag <mark>i</mark> (não semantica)</p>
+    <p>Nesta frase temos um <em>termo em enfase</em> usando a tag <mark>em</mark> (semantico)</p>
+    <!--evite usar b e i, use strong e em já que elas são semanticas e mais atualizadas-->
+    <h2>Texto marcado</h2>
+    <p>Podemos marcar também um texto marcado usando a tag <mark>mark</mark></p>
+    <p>Nesta frase temos um <mark style="background-color: rgb(104, 104, 168);" >texto marcado.</mark> A marcação esta diferente pois não estou usando a tag no head mas sim uma própia para essa frase</p>
+
+    <!--para colorir a marcação temos que usar o css ja que a cor se refere a estilo e não ao significado-->
+    <h2>Texto grande e pequeno</h2>
+    <p>Nesta frase foi usado a tag <mark>big</mark> para fazer uma <strong><big>palavra</big></strong> grande e <small>small</small> para fazer uma <em><small>palavra</small></em> pequena. Também utilizei a tag strong para colocar em <strong>negrito</strong> e em para colocar em <em>itálico</em></p>
+    <h2>Texto excluido</h2>
+    <p>Para fazer um texto no qual algo <del>deve ser lido mas não considerado</del> usamos a tag <mark>del</mark></p>
+    <h2>Subscrito</h2>
+    <p>Para fazer um sinal de elevado por usamos o <mark>sup</mark>... exemplo: x<sup>3</sup> + 5<sup>5</sup></p>
+    <h2>Sobrescrito</h2>
+    <p>Do mesmo modo usamos <mark>sub</mark> para lidar com fórmulas químicas exemplo: h<sub>2</sub>0</p>
+    <h2>sinal de inserido</h2>
+    <p>Para fazer o sinal de inserido(sublinhado usamos a tag ins. O resultado é <ins>esse aqui</ins></p>
+    <h2>Por enquanto é só</h2>
+
+    
+</body>
+</html>

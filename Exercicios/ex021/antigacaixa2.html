@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            background-color: rgb(184, 215, 216);
+            font-family: sans-serif;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            margin: 10px 30px;
+            padding: 10px;
+            border-radius:  10px;
+        }
+         h1 {
+            text-align: center;
+            font-size: 50px;
+            background-color: red;
+            width: 350px;
+            margin: auto;
+            margin-bottom: 30px;
+            
+        }
+        nav{
+            text-align: center;
+            row-gap: 20px;
+            background-color: red;
+            width: 500px;
+            margin: auto;
+            border-radius: 10px;
+            padding: 5px;
+            box-shadow: 3px 3px 4px #5C5254;
+            
+            
+            
+        }
+        nav > a{
+            color: wheat;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 50px;
+            box-shadow: 2px 2px 2px black;
+        }
+        nav > a:hover {
+            color: black;
+            font-size: large;
+            border-width: 0px;
+
+        }
+        
+       
+        main{
+            background-color: white;
+            margin: 10px 30px;
+            padding: 10px;
+        }
+        h2{
+            margin-left: 15px;
+        }
+        #id {
+            font-size: smaller;
+            margin-left: 40px;
+            
+        }
+
+        footer{
+            background-color: black;
+            margin: 10px 30px;
+            padding: 10px;
+            margin: 0px;
+        }
+        footer > p{
+            color: white;
+            text-align: center;
+            padding: 0px;
+            margin: 0px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Noticias do mundo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam obcaecati officiis iste neque quod? Nostrum corrupti illo praesentium neque earum accusantium? Excepturi ipsa amet est perspiciatis! Et quia nam officia.</p>
+
+            </article>
+            <article>
+                <h2>Noticias do brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, asperiores. Unde iure libero, suscipit dolore dolorum totam sequi autem magnam magni fugiat perferendis excepturi corporis! Fuga harum nobis dolorum eos?</p>
+                <aside> 
+                    <p id="id"><em> artigo escito por lorem ipsum</em></p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p> Desenvolvido por Douglas</p>
+    </footer>
+</body>
+</html>
