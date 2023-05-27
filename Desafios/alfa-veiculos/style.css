@@ -1,0 +1,51 @@
+*{
+    font-family: sans-serif;
+}
+main{
+
+    height: 287px;
+    background-color: yellow;
+    width: 700px;
+}
+.um{
+   display: flex;
+   justify-content: space-around;
+}
+
+div#nome{
+    row-gap: 0px;
+}
+div#nome h1{
+    font-size: 3em;
+    margin-bottom: 0%;
+}
+div#nome h2{
+    margin-top: -10%;
+    font-size: 1em;
+    margin-left: 40px;
+}
+div#contatos{
+    margin-top: 30px;
+}
+
+div#contatos p{
+    font-weight:bolder ;
+    line-height: 0ch;
+    margin-top: 20px;
+    
+}
+
+div#servicos h3{
+    line-height: 5px;
+}
+.dois{
+    background-color: white;
+    margin: 20px;
+    
+}
+.dois img{
+width: 24.3%;
+}
+footer{
+    text-align: center;
+}
