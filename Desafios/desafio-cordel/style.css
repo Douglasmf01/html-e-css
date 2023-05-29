@@ -6,6 +6,7 @@ body{
 header{
     background-color: black;
     margin: none;
+    padding: 3vh;
 }
 header h1, h2{
     color: white;
@@ -14,9 +15,11 @@ header h1, h2{
 header h1{
     font-size: 6vw;
     margin-top: 0px;
-    padding-top: 20px;
     margin-bottom: 0px;
     font-family: 'Passion One', cursive;
+}
+header h2{
+    margin: 0px;
 }
 header h2 a {
     text-decoration: none;
@@ -25,16 +28,6 @@ header h2 a {
 header h2 a:hover{
     text-decoration: underline;
 }
-header h2{
-    margin: 0px;
-}
-.paddingheader{
-    padding-top:45px ;
-    padding-bottom: 45px;
-}
-div{
-    padding: 3vw;
-}
 p{ 
     display: block;
     font-size: 3vw;
@@ -42,16 +35,18 @@ p{
     margin: 7%;
     font-family: 'Sriracha', cursive;
 }
-.flor{
+.imagem{
+     background-size: cover;
+    background-position: center center;
+    height: 50vw;
+    width: 89vw;
+    background-attachment: fixed;
+    background-position: top right;
+}
+.imagem#flor{
     background-image: url(pacote-d012/imagens/background001.jpg);
-    background-size: cover;
-    background-position: center center;
-    height: 50vw;
-    width: 89vw;
-    background-attachment: fixed;
-    background-position: top right;
 }
-.flor p{
+.imagem p{
     background-color: rgba(0, 0, 0, 0.474);
     color: white;
     width: 40vw;
@@ -61,24 +56,8 @@ p{
     border-radius: 5%;
     margin-top: 2%;
 }
-.livro{
+.imagem#livro{
     background-image: url(pacote-d012/imagens/background002.jpg);
-    background-size: cover;
-    background-position: center center;
-    height: 50vw;
-    width: 89vw;
-    background-attachment: fixed;
-    background-position: top right;
-}
-.livro p{
-    background-color: rgba(0, 0, 0, 0.474);
-    color: white;
-    width: 40vw;
-    font-size: 3vw;
-    padding: 10px;
-    margin-left: 3% ;
-    border-radius: 5%;
-    margin-top: 2%;
 }
 footer{
     background-color: black;
@@ -90,4 +69,4 @@ footer p{
     color: white;
     font-family: sans-serif;
 }
-/*97*/
+/*97 para 72*/
