@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
+body{
+    font-family: sans-serif;
+    margin-top: 0px;
+}
+header{
+    background-color: black;
+    margin: none;
+}
+header h1, h2{
+    color: white;
+    text-align: center;
+}
+header h1{
+    font-size: 6vw;
+    margin-top: 0px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    font-family: 'Passion One', cursive;
+}
+header h2 a {
+    text-decoration: none;
+    color: white;
+}
+header h2 a:hover{
+    text-decoration: underline;
+}
+header h2{
+    margin: 0px;
+}
+.paddingheader{
+    padding-top:45px ;
+    padding-bottom: 45px;
+}
+div{
+    padding: 3vw;
+}
+p{ 
+    display: block;
+    font-size: 3vw;
+    line-height: 6vw;
+    margin: 7%;
+    font-family: 'Sriracha', cursive;
+}
+.flor{
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 50vw;
+    width: 89vw;
+    background-attachment: fixed;
+    background-position: top right;
+}
+.flor p{
+    background-color: rgba(0, 0, 0, 0.474);
+    color: white;
+    width: 40vw;
+    font-size: 3vw;
+    padding: 10px;
+    margin-left: 3% ;
+    border-radius: 5%;
+    margin-top: 2%;
+}
+.livro{
+    background-image: url(pacote-d012/imagens/background002.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 50vw;
+    width: 89vw;
+    background-attachment: fixed;
+    background-position: top right;
+}
+.livro p{
+    background-color: rgba(0, 0, 0, 0.474);
+    color: white;
+    width: 40vw;
+    font-size: 3vw;
+    padding: 10px;
+    margin-left: 3% ;
+    border-radius: 5%;
+    margin-top: 2%;
+}
+footer{
+    background-color: black;
+    margin-bottom: -21%;
+    text-align: center;
+    margin-right: 0px;
+}
+footer p{
+    color: white;
+    font-family: sans-serif;
+}
+/*97*/
