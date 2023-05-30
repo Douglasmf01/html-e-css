@@ -39,9 +39,11 @@ p{
      background-size: cover;
     background-position: center center;
     height: 50vw;
-    width: 89vw;
+    width: 100vw;
     background-attachment: fixed;
     background-position: top right;
+   padding: 1%;
+padding-bottom: 11%;
 }
 .imagem#flor{
     background-image: url(pacote-d012/imagens/background001.jpg);
@@ -50,11 +52,10 @@ p{
     background-color: rgba(0, 0, 0, 0.474);
     color: white;
     width: 40vw;
+    border-radius: 5%;
     font-size: 3vw;
     padding: 10px;
     margin-left: 3% ;
-    border-radius: 5%;
-    margin-top: 2%;
 }
 .imagem#livro{
     background-image: url(pacote-d012/imagens/background002.jpg);
