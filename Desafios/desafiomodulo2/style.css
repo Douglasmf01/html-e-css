@@ -84,9 +84,6 @@ main  p {
     background-color: var(--cor3);
     margin: 0px -20px;
 }
-.video > iframe{
-    
-}
 main > h1{
     color: var(--cor4);
     font-family: "android";
