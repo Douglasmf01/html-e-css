@@ -2,6 +2,8 @@
 body{
     font-family: sans-serif;
     margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 header{
     background-color: black;
@@ -20,6 +22,7 @@ header h1{
 }
 header h2{
     margin: 0px;
+    font-size: 3vw;
 }
 header h2 a {
     text-decoration: none;
@@ -29,7 +32,7 @@ header h2 a:hover{
     text-decoration: underline;
 }
 p{ 
-    display: block;
+    
     font-size: 3vw;
     line-height: 6vw;
     margin: 7%;
@@ -37,16 +40,19 @@ p{
 }
 .imagem{
      background-size: cover;
-    background-position: center center;
     height: 50vw;
-    width: 100vw;
+    width: 96vw;
     background-attachment: fixed;
-    background-position: top right;
-   padding: 1%;
-padding-bottom: 11%;
+    background-position: center right;
+    padding: 1%;
+    padding-bottom: 11%;
+    box-shadow: inset 6px 6px 6px 0px black;
 }
 .imagem#flor{
     background-image: url(pacote-d012/imagens/background001.jpg);
+}
+.imagem#livro{
+    background-image: url(pacote-d012/imagens/background002.jpg);
 }
 .imagem p{
     background-color: rgba(0, 0, 0, 0.474);
@@ -56,9 +62,7 @@ padding-bottom: 11%;
     font-size: 3vw;
     padding: 10px;
     margin-left: 3% ;
-}
-.imagem#livro{
-    background-image: url(pacote-d012/imagens/background002.jpg);
+    text-shadow: 2px 2px 2px black;
 }
 footer{
     background-color: black;
