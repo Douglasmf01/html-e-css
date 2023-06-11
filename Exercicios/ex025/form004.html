@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        .dadospessoais{
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+<body>
+    <h1>exemplo de formulário</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset class="dadospessoais">
+            <legend>dados pessoais</legend>
+            <p>
+                <label for="inome">Digite seu nome:</label><input type="text" name="nome" id="inome" required minlength="4" maxlength="20" >
+            </p>
+            <p>
+                <label for="iemail">Digite seu email: </label><input type="email" name="email" id="iemail" placeholder="exemplo@gmail.com" required>
+            </p>
+            <p>
+                <label for="itel">Insira seu telefone: </label><input type="tel" name="tel" id="itel" required minlength="8" pattern="^\(\d{2}\)[0-9]{4,5}-[0-9]{4}$" placeholder="1111-1111">
+            </p>
+            <p>
+                <input type="submit" value="enviar">
+                <input type="reset" value="apagar">
+            </p>
+        </fieldset>
+    </form>
+    <!-- estudar mais sobre expressões regulares -->
+</body>
+</html>

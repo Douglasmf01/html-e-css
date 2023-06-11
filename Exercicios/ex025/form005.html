@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dados{
+            display: flex;
+        }
+        legend{
+            font-weight: bold;
+        }
+        fieldset{
+            background-image:linear-gradient(to bottom, lightgreen, green);
+        }
+      
+        
+       
+    </style>
+</head>
+<body>
+    <form action="" method="get" >
+        <div class="dados">
+            <fieldset class="esportes">
+                <legend>Esportes favoritos</legend>
+                <input type="checkbox" name="fut" id="ifut"><label for="ifut">Futebol</label> <br>
+                <input type="checkbox" name="bas" id="ibas"><label for="ibas">Basquete</label> <br>
+                <input type="checkbox" name="ten" id="iten"><label for="iten">Tênis</label> <br>
+                <input type="checkbox" name="nat" id="inat"><label for="inat">Natação</label> <br>
+            </fieldset>
+            
+            <fieldset class="escolaridade">
+                <legend>Escolaridade</legend>
+            <input type="radio" name="esc" id="min" value="mi"> <label for="min">Fundamental</label><br>
+            <input type="radio" name="esc" id="med" value="me"> <label for="med">Médio</label><br>
+            <input type="radio" name="esc" id="max" value="ma"> <label for="max">Superior</label> <br>
+            </fieldset>
+        </div>
+       
+            <input type="submit" value="enviar" >
+            <input type="reset" value="limpar" >
+        
+    
+        
+    </form>
+</body>
+</html>

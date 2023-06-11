@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3º Formulário</title>
+    <style>
+        main{
+            background-color: black;
+        }
+        h1{
+            background-color: rgb(199, 199, 151);
+            margin-bottom: 0px;
+            text-align: center;
+            margin: auto;
+            width: 500px;
+            padding: 10px;
+            
+        }
+        form{
+            background-color: rgb(199, 199, 151);
+            padding: 10px;
+            text-align: center;
+            border-bottom-left-radius:  10px;
+            border-bottom-right-radius: 10px;
+            width: 500px;
+            margin: auto;
+        }
+        .enviar, .limpar{
+            background-color: rgb(168, 168, 130);
+            border: 1px solid rgb(199, 199, 151);
+            color: white;
+            transition: .5s;
+            padding: 6px;
+        }
+        .enviar:hover, .limpar:hover{
+            background-color: white;
+            color: black;
+        }
+        input{
+            background-color: rgb(231, 231, 175);
+            border: none;
+            border-radius:  5px;
+           
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+    <main>
+        <h1>teste de formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="inome">Nome: <input type="text" name="nome" id="inome" required  minlength="4" maxlength="30" placeholder="Nome completo:" autocomplete="name">
+        </p>
+        <p>
+            <label for="imedia">Média: </label><input type="number" name="media" id="imedia" step="0.5" placeholder="De 0 a 10" min="0" max="10" >
+        </p>
+        <p>
+            <label for="imes">Período letivo: </label><input type="date" name="mes" id="imes">
+        </p>
+        <p>
+            <label for="ihora">Hora da prova: </label><input type="time" name="hora" id="ihora">
+        </p>
+        <p>
+            <input type="submit" value="enviar" class="enviar">
+            <input type="reset" value="Limpar"class="limpar">
+        </p>
+
+    </form>
+</main>
+
+
+</body>
+</html>
