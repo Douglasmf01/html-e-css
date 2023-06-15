@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia Alternativa - A sua academia!</title>
+    <style>
+        header > div{
+            display: flex;
+            justify-content: space-between;
+        }
+        img{
+            width: 40vw;
+            filter: brightness(60%);
+        }
+        img:hover{
+            transform: scale(120%);transition: transform 1s;
+             filter: brightness(100%);
+        }
+        img:active{
+            transform: scale(140%);transition: transform 1s;
+           
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <div>
+                <h1>ACADEMIA</h1>
+                <h1>ALTERNATIVA</h1>
+                <h2>Bem Vindo a sua nova academia!</h2>
+            </div>
+            <div>
+                <form action="academia.php">
+                    <fieldset>
+                        <legend>Já é cliente?</legend>
+                        <label for="ilogin">Usuário:</label><input type="text" name="login" id="ilogin"><br>
+                        <label for="isenha">Senha:</label><input type="text" name="senha" id="isenha">
+                        <input type="submit" value="Enviar">
+                        <input type="submit" value="Inscreva-se">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <nav>
+            <a href="#">Sobre nós</a>
+            <a href="#">Nossos planos</a>
+            <a href="#">Sobre a academia</a>
+        </nav>
+    </header>
+     <main>
+        <img src="ftacademia.jpg" alt="Foto da academia"> 
+        <img src="ftacademia2.jpg" alt="Foto da academia">  
+    </main>
+        <aside>
+            <p>MEu nome é Flaviane e em 2005 comecei um projeto despretencioso, que visava ajudar as pessoas, tanto fisicamente quanto mentalmente. <br>
+            Mal sabia eu que oque era apenas algo que eu considerava um sonho foi se tornando realidade e hoje meu projeto se transformou em uma grande academia, que consegue instruir tanto alunos novos como pessoas que já estão familiarizadas com esse estilo de vida! <br>
+            Para isso, contamos com os maios diversos equipamentos e também com instrutores preparados para te trazer uma vida melhor e mais feliz! <br> 
+                </p>
+        </aside>
+        
+    <footer>
+        <article>
+            <p>Endereço:</p>
+            <p>Rua Sete de setembro, 235 Centro <br> campestre, MG</p>
+        </article>
+        <article>
+            <p>Contatos</p>
+            <p>(35) 99959-0233</p>
+            <p>(35) 99876-7140</p>
+        </article>
+    </footer>    
+   
+</body>
+</html>

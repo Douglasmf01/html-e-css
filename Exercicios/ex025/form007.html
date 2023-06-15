@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="cadastro.php">
+        <label for="iest">Estado</label>
+        <select name="estado" id="iest">
+            <optgroup label="Sudeste">
+                <option value="ES">espirito Santo</option>
+                <option value="Mg">Minas Gerais</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP" selected>São Paulo</option>
+            </optgroup>
+            <optgroup label="Norte">
+                <option value="AM">Amazonas</option>
+                <option value="PA">Pará</option>
+                <option value="AC">Acre</option>
+                <option value="RR">Roraima</option>
+                <option value="RO">Rondônia</option>
+                <option value="AM">Amapá</option>
+                <option value="TO">Tocantins</option>
+            </optgroup>
+            <optgroup label="nordeste">
+                <option value="MA">Maranhão</option>
+                <option value="PI">Piaui</option>
+                <option value="CE">Ceará</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="PA">Paraiba</option>
+                <option value="PE">Pernambuco</option>
+                <option value="AL">Alagoas</option>
+                <option value="Se">Sergipe</option>
+
+            </optgroup>
+            <optgroup label="Centro-oeste">
+                <option value="GO">Goiás</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="DF">Distrito Federal</option>
+
+            </optgroup>
+            <optgroup label="Sul">
+                <option value="PR">paraná</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="RS">Rio Grande do Sul</option>
+            </optgroup>
+        </select>
+           <p>
+               <input type="submit" value="Eviar">
+               <input type="submit" value="Apagar">
+            </p>
+        <label for="iprof">Escolha sua profissão:</label><input type="text" name="prof" id="iprof" list="listadeprofissoes">
+        <datalist id="listadeprofissoes">
+            <option value="cozinheiro">Cozinheiro</option>
+            <option value="escritor">Escritor</option>
+            <option value="advogado">Advogado</option>
+            <option></option>Trabalhador Rural</option>
+            <option >Programador</option>
+
+        </datalist> <br>
+         
+        <label for="iemail">Email:</label><input type="email" name="email" id="imail" list="listemail">
+            <datalist id="listemail"> 
+            <option value="">gfd@gmail.com</option>
+            <option value="">ygvbfb@gmail.com</option>
+        </datalist>
+        <p>
+            
+            <textarea name="mens" id="men" cols="30" rows="10" maxlength="300" placeholder="Deixe sua sugestão para o nosso site:"></textarea>
+        </p>
+    </form>
+</body>
+</html>
