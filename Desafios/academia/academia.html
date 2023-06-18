@@ -5,52 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Academia Alternativa - A sua academia!</title>
-    <style>
-        header > div{
-            display: flex;
-            justify-content: space-between;
-        }
-        img{
-            width: 40vw;
-            filter: brightness(60%);
-        }
-        img:hover{
-            transform: scale(120%);transition: transform 1s;
-             filter: brightness(100%);
-        }
-        img:active{
-            transform: scale(140%);transition: transform 1s;
-           
-        }
-    </style>
+    <link rel="stylesheet" href="estilos/style.css">
+    
 </head>
 <body>
     <header>
-        <div>
+        <div class="cabecalho">
             <div>
                 <h1>ACADEMIA</h1>
                 <h1>ALTERNATIVA</h1>
-                <h2>Bem Vindo a sua nova academia!</h2>
-            </div>
             <div>
-                <form action="academia.php">
-                    <fieldset>
-                        <legend>Já é cliente?</legend>
-                        <label for="ilogin">Usuário:</label><input type="text" name="login" id="ilogin"><br>
-                        <label for="isenha">Senha:</label><input type="text" name="senha" id="isenha">
-                        <input type="submit" value="Enviar">
-                        <input type="submit" value="Inscreva-se">
-                    </fieldset>
-                </form>
+            <div> <form action="academia.php">
+            
+                <fieldset>
+                    <legend>Já é cliente?</legend>
+                    <label for="ilogin">Usuário:</label><input type="text" name="login" id="ilogin"><br>
+                    <label for="isenha">Senha:</label><input type="text" name="senha" id="isenha"> <br>
+                    <input type="submit" value="Enviar">
+                    <input type="submit" value="Inscreva-se">
+                </fieldset>
+                            </form>
             </div>
         </div>
         <nav>
             <a href="#">Sobre nós</a>
             <a href="#">Nossos planos</a>
             <a href="#">Sobre a academia</a>
-        </nav>
-    </header>
-     <main>
+        </nav>  
+        </div>
+       </header> 
+       <h2>Bem Vindo a sua nova academia!</h2>
+        
+    
+    <main>
         <img src="ftacademia.jpg" alt="Foto da academia"> 
         <img src="ftacademia2.jpg" alt="Foto da academia">  
     </main>

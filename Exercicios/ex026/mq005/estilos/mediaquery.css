@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+   span#burguer{
+    display: none;
+   }
+   menu{
+    display: block;
+   }
+   menu > ul > li > a{
+    display: inline-block;
+    
+    transition: color .4s, background-color .4s;
+    border-radius: 10px;
+
+   }
+   
+   menu > ul > li{
+    display: inline;
+   
+    
+   }
+   menu > ul > li > a:hover{
+    background-color: white;
+    color: black;
+   }
+   main{
+    max-width: 778px ;
+   }
+}
+@media screen and (min-width: 1200px) {
+   menu > ul   {
+     text-align: center;
+    }
+}

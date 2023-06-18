@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+header{
+    display: flex;
+    background-color: black;
+    
+}
+header h1{
+    color: white;
+}
+.cabecalho{
+    display: flex;
+}
