@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(204, 211, 164);
+    background-color: rgb(106, 109, 89);
 }
 img#eu{
     width: 230px;
@@ -9,18 +9,67 @@ header > h1{
     text-align: center;
     font-size: 3em;
 }
-.apresentacao{
+h2{
+    font-size: 3em;
+    justify-content: center;
+    margin-top: 50%;
+    transform: translate(0, -50%);
+}
+#acesse{
+   font-weight: 600;
+  
+}
+.apresentacao, main, .main{
     display: flex;
     justify-content: space-around;
     width: 80vw;
-    background-color: aliceblue;
+    background-color: rgb(80, 82, 73);
     margin: auto;
     border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px black;
+    margin-bottom: 30px;
+}
+.apresentacao{
+    width: 100vw;
+    background-image: linear-gradient(to bottom, rgb(80, 82, 73), rgb(55, 56, 50) );
 }
 img{
     border-radius: 10px;
+    transition: transform .5s, filter 1s
 }
 img:hover{
-    transform: scale(110%);
-    filter: brightness(90%);
+    transform: scale(150%);
+    filter: brightness(70%);
+    
 }
+.quem{
+    width: 90vw;
+    text-align: center;
+    padding: 30px;
+}
+.interrogacao1, .interrogacao2, .interrogacao3, h1{
+    display: inline;
+}
+@keyframes identifier  {
+    
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+    color: rgb(36, 24, 14);
+    
+}
+main, .main{
+    padding: 10px;
+}
+.meio{
+    background-color: rgb(52, 53, 48) ;
+}
+main, .main> p{
+    color: white;
+    font-size: 2em;
+    text-indent: 50px;
+    text-align: justify;
+}
+
